@@ -1,0 +1,53 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/user/usercenter/usercenter",
+        "pages/user/login/login",
+        "pages/user/address/address",
+        "pages/logs/logs"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#333",
+        "navigationBarTitleText": "WeChat",
+        "navigationBarTextStyle": "white"
+    },
+    "tabBar": {
+        "color": "#666",
+        "selectedColor": "#b4282d",
+        "backgroundColor": "#FFF",
+        "borderStyle": "rgb(217, 217, 217)",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "text": "首页",
+                "iconPath": "images/home_nocheck.png",
+                "selectedIconPath": "images/home_check.png"
+            },
+            {
+                "pagePath": "pages/index/index",
+                "text": "视频秀",
+                "iconPath": "images/home_nocheck.png",
+                "selectedIconPath": "images/home_check.png"
+            },
+            {
+                "pagePath": "pages/index/index",
+                "text": "附近门店",
+                "iconPath": "images/nearby_nocheck.png",
+                "selectedIconPath": "images/nearby_check.png"
+            },
+            {
+                "pagePath": "pages/user/usercenter/usercenter",
+                "text": "我的",
+                "iconPath": "images/user_nocheck.png",
+                "selectedIconPath": "images/user_check.png"
+            }
+        ]
+    },
+    "networkTimeout":{
+        "request":100000,
+        "connectSocket":5000,
+        "uploadFile":100000,
+        "downloadFile":100000
+    }
+}
