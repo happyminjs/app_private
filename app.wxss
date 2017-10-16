@@ -1,0 +1,27 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+} 
+
+page{
+    background: #fff;
+    font-size: 26rpx;
+    color: #333;
+}
+.middle{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform:  translateX(-50%);
+}
+.display_block{
+    display: block;
+}
+.display_inlineblock{
+    display: inline-block;
+}
