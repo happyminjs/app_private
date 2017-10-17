@@ -9,7 +9,11 @@
             </view>
         </view>
     </view>
-    <view class='orderPart'>
-        <view></view>
+    <view class='listPart'>
+        <view class='list' wx:for="{{userList}}">
+            <image class='list_head' src='{{item.img}}'></image>
+            <text class='list_name'>{{item.name}}</text>
+            <image class='list_nav' src='/images/more.png'></image>
+        </view>
     </view>
 </view>
