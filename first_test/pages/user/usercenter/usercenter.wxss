@@ -26,3 +26,30 @@
 .level{
     font-size: 28rpx;
 }
+
+.listPart{
+    text-align: left;
+    background: #fff;
+    margin-top: 10rpx;
+}
+.list{
+    width: 710rpx;
+    padding: 25rpx;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+}
+.list_head{
+    width: 40rpx;
+    height: 40rpx;
+    vertical-align: middle;
+}
+.list_name{
+    margin-left: 20rpx;
+    font-size: 30rpx;
+    vertical-align: middle;
+}
+.list_nav{
+    width: 30rpx;
+    height: 30rpx;
+    float: right;
+}
