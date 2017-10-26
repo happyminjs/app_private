@@ -1,6 +1,8 @@
+
 {
     "pages": [
         "pages/index/index",
+        "pages/videoshow/videoshow",
         "pages/user/usercenter/usercenter",
         "pages/user/login/login",
         "pages/user/address/address",
@@ -25,10 +27,10 @@
                 "selectedIconPath": "images/home_check.png"
             },
             {
-                "pagePath": "pages/index/index",
+                "pagePath": "pages/videoshow/videoshow",
                 "text": "视频秀",
-                "iconPath": "images/home_nocheck.png",
-                "selectedIconPath": "images/home_check.png"
+                "iconPath": "images/video.jpg",
+                "selectedIconPath": "images/video_checked.jpg"
             },
             {
                 "pagePath": "pages/index/index",
@@ -44,10 +46,10 @@
             }
         ]
     },
-    "networkTimeout":{
-        "request":100000,
-        "connectSocket":5000,
-        "uploadFile":100000,
-        "downloadFile":100000
+    "networkTimeout": {
+        "request": 100000,
+        "connectSocket": 5000,
+        "uploadFile": 100000,
+        "downloadFile": 100000
     }
 }

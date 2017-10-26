@@ -1,0 +1,55 @@
+/* pages/user/usercenter/usercenter.wxss */
+.headPart{
+    height: 200rpx;
+    background: #333;
+    width: 710rpx;
+    color: #fff;
+    font-size: 32rpx;
+    padding: 0 20rpx;
+}
+.headInfo{
+    position: relative;
+    top: 20%;
+    line-height: 44rpx;
+}
+.headImg{
+    width: 100rpx;
+    height: 100rpx;
+    vertical-align: middle;
+    margin-right: 20rpx;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+}
+.userinfo{
+    vertical-align: middle;
+}
+.level{
+    font-size: 28rpx;
+}
+
+.listPart{
+    text-align: left;
+    background: #fff;
+    margin-top: 10rpx;
+}
+.list{
+    width: 710rpx;
+    padding: 25rpx;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+}
+.list_head{
+    width: 40rpx;
+    height: 40rpx;
+    vertical-align: middle;
+}
+.list_name{
+    margin-left: 20rpx;
+    font-size: 30rpx;
+    vertical-align: middle;
+}
+.list_nav{
+    width: 30rpx;
+    height: 30rpx;
+    float: right;
+}
