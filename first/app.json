@@ -28,13 +28,13 @@
             },
             {
                 "pagePath": "pages/videoshow/videoshow",
-                "text": "视频秀",
+                "text": "首页",
                 "iconPath": "images/video.jpg",
                 "selectedIconPath": "images/video_checked.jpg"
             },
             {
                 "pagePath": "pages/index/index",
-                "text": "附近门店",
+                "text": "首页",
                 "iconPath": "images/nearby_nocheck.png",
                 "selectedIconPath": "images/nearby_check.png"
             },

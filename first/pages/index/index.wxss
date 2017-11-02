@@ -17,5 +17,42 @@
 }
 
 .usermotto {
-  margin-top: 200px;
+  margin-top: 10px;
+}
+
+.flex_test{
+    width: 750rpx;
+    overflow-x: scroll;
+    display: flex;
+    flex-direction:row; 
+    /* row | row-reverse | column | column-reverse; */
+    /* 水平方向，起点左端 | 水平方向，起点右端 | 垂直方向，起点上端 | 垂直方向，起点下端 */
+    flex-wrap: nowrap;
+    justify-content:space-between;
+    align-items:center;
+}
+.flex_test .flex_child{
+    margin: 10rpx;
+    height: 100rpx;
+    /* width: 30rpx; */
+    flex:auto;  /* none | [ <'flex-grow'> <'flex-shrink'>? || <'flex-basis'> ] */
+    flex-basis:auto;
+}
+.flex_test .flex_child:nth-child(odd){
+    background: #2bf;
+    /* width: 500rpx; */
+    /* flex-grow:2;  */
+    /* 放大倍数属性*/
+    /* flex-shrink:1; */
+    /* 缩小倍数属性*/
+    flex-basis: 200rpx;
+}
+.flex_test .flex_child:nth-child(even){
+    background: #2aef5b;
+    /* height: 200rpx; */
+    /* width: 200rpx; */
+    /* flex-grow:1; */
+}
+.flex_test .flex_child:last-child{
+    align-self:flex-end ;
 }
