@@ -83,20 +83,16 @@ Page({
 
     loadImages: function () {
         let images = [
+            { pic: "https://image-shop.chuchutong.com/culiu.cdn/image/201710/08/9b816aea18511a46c10a9a93753765e31507434719_800_800.jpg", height: 0 },
+            { pic: "https://image-shop.chuchutong.com/culiu.cdn/image/201711/07/06b24fbcfdc1a81dd282557554d92dfe1510035687_800_800.jpg", height: 0 },
             { pic: "https://s17.mogucdn.com/mlcdn/c45406/170711_70349h6ae5cj5i79828b9f33f50gi_640x960.jpg", height: 0 },
             { pic: "https://image-shop.chuchutong.com/culiu.cdn/image/201710/21/7980364c23df42d7f4e7414684ebbe1f1508550676_800_800.jpg", height: 0 },
-            { pic: "https://s17.mogucdn.com/mlcdn/c45406/170711_70349h6ae5cj5i79828b9f33f50gi_640x960.jpg", height: 0 },
-            { pic: "https://s17.mogucdn.com/mlcdn/c45406/170711_70349h6ae5cj5i79828b9f33f50gi_640x960.jpg", height: 0 },
-            { pic: "https://image-shop.chuchutong.com/culiu.cdn/image/201710/21/7980364c23df42d7f4e7414684ebbe1f1508550676_800_800.jpg", height: 0 },
-            { pic: "https://image-shop.chuchutong.com/culiu.cdn/image/201710/21/7980364c23df42d7f4e7414684ebbe1f1508550676_800_800.jpg", height: 0 },
-            { pic: "https://image-shop.chuchutong.com/culiu.cdn/image/201710/21/7980364c23df42d7f4e7414684ebbe1f1508550676_800_800.jpg", height: 0 },
-            { pic: "https://s17.mogucdn.com/mlcdn/c45406/170711_70349h6ae5cj5i79828b9f33f50gi_640x960.jpg", height: 0 },
-            { pic: "https://image-shop.chuchutong.com/culiu.cdn/image/201710/21/7980364c23df42d7f4e7414684ebbe1f1508550676_800_800.jpg", height: 0 },
+            
             { pic: "https://s17.mogucdn.com/mlcdn/c45406/170711_70349h6ae5cj5i79828b9f33f50gi_640x960.jpg", height: 0 },
             { pic: "https://image-shop.chuchutong.com/culiu.cdn/image/201710/21/7980364c23df42d7f4e7414684ebbe1f1508550676_800_800.jpg", height: 0 },
             { pic: "https://image-shop.chuchutong.com/culiu.cdn/image/201710/21/7980364c23df42d7f4e7414684ebbe1f1508550676_800_800.jpg", height: 0 },
             { pic: "https://image-shop.chuchutong.com/culiu.cdn/image/201710/21/7980364c23df42d7f4e7414684ebbe1f1508550676_800_800.jpg", height: 0 },
-            { pic: "https://image-shop.chuchutong.com/culiu.cdn/image/201710/21/7980364c23df42d7f4e7414684ebbe1f1508550676_800_800.jpg", height: 0 }
+            { pic: "https://s17.mogucdn.com/mlcdn/c45406/170711_70349h6ae5cj5i79828b9f33f50gi_640x960.jpg", height: 0 },
         ];
 
         let baseId = "img-" + (+new Date());

@@ -56,3 +56,32 @@
 .flex_test .flex_child:last-child{
     align-self:flex-end ;
 }
+
+
+
+/* 瀑布流部分  */
+.container{
+    width: 100%;
+}
+.container .list{
+    margin-top: 20rpx;
+    width: 710rpx;
+    padding: 0 20rpx;
+    background: #fff;
+    display: flex;
+    flex-direction:row; 
+    justify-content: space-between;
+}
+.fall_style{
+    width: 345rpx;
+}
+.fall_style .fall{
+    margin-bottom: 20rpx;
+}
+.fall_style .fallImg{
+    width: 100%;
+}
+.fall_style .fallInfo{
+    display: block;
+    margin-top: 10rpx;
+}

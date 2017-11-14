@@ -1,19 +1,27 @@
 <!--index.wxml-->
 <view class="container">
-    <view class="userinfo">
-        <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
-        <block wx:else>
-            <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
-            <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-        </block>
-    </view>
-    <view class="usermotto">
-        <text class="user-motto">{{motto}}</text>
-    </view>
     <view class='flex_test'>
         <view class='flex_child'>111</view>
         <view class='flex_child'>222</view>
         <view class='flex_child'>3333</view>
         <view class='flex_child'>4444</view>
+    </view>
+    <view class='list'>
+        <view class='waterfall_0 fall_style'>
+            <view class='fall' wx:for="{{column[0]}}">
+                <image class='fallImg' src='{{item.imgUrl}}'></image>
+                <view class='fallInfo'>
+                    <view class='fallTitle'>嗯嗯嗯嗯，名字一致啊啊啊</view>
+                </view>
+            </view>
+        </view>
+        <view class='waterfall_1 fall_style'>
+            <view class='fall'  wx:for="{{column[1]}}">
+                <image class='fallImg' src='https://s17.mogucdn.com/mlcdn/c45406/170711_70349h6ae5cj5i79828b9f33f50gi_640x960.jpg'></image>
+                <view class='fallInfo'>
+                    <view class='fallTitle'>嗯嗯嗯嗯，名字一致啊啊啊</view>
+                </view>
+            </view>
+        </view>
     </view>
 </view>
