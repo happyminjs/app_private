@@ -1,27 +1,21 @@
 <!--index.wxml-->
 <view class="container">
-    <view class='flex_test'>
+    <!-- <view class='flex_test'>
         <view class='flex_child'>111</view>
         <view class='flex_child'>222</view>
         <view class='flex_child'>3333</view>
         <view class='flex_child'>4444</view>
-    </view>
-    <view class='list'>
-        <view class='waterfall_0 fall_style'>
-            <view class='fall' wx:for="{{column[0]}}">
-                <image class='fallImg' src='{{item.imgUrl}}'></image>
-                <view class='fallInfo'>
-                    <view class='fallTitle'>嗯嗯嗯嗯，名字一致啊啊啊</view>
+    </view> -->
+    <scroll-view scroll-y lower-threshold='100' bindscrolltolower='imgScroll' bindscroll='scrolling' style='height:{{scrollH}}'>
+        <view class='list'>
+            <view wx:for="{{column}}" wx:for-index="i" class='fall_style waterfall_{{i}}'>
+                <view class='fall' wx:for="{{column[i]}}">
+                    <image class='fallImg' src='{{item.imgUrl}}' data-columnindex='{{i}}' data-imgindex='{{index}}' bindload='imgLoad' style='height:{{item.height}}'></image>
+                    <view class='fallInfo'>
+                        <view class='fallTitle'>嗯嗯嗯嗯，名字一致啊啊啊</view>
+                    </view>
                 </view>
             </view>
         </view>
-        <view class='waterfall_1 fall_style'>
-            <view class='fall'  wx:for="{{column[1]}}">
-                <image class='fallImg' src='https://s17.mogucdn.com/mlcdn/c45406/170711_70349h6ae5cj5i79828b9f33f50gi_640x960.jpg'></image>
-                <view class='fallInfo'>
-                    <view class='fallTitle'>嗯嗯嗯嗯，名字一致啊啊啊</view>
-                </view>
-            </view>
-        </view>
-    </view>
+    </scroll-view>
 </view>

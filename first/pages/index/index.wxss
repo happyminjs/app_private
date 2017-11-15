@@ -74,6 +74,7 @@
 }
 .fall_style{
     width: 345rpx;
+    height: 100%;
 }
 .fall_style .fall{
     margin-bottom: 20rpx;
