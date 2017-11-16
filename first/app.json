@@ -6,6 +6,7 @@
         "pages/user/usercenter/usercenter",
         "pages/user/login/login",
         "pages/user/address/address",
+        "pages/shop/detail/detail",
         "pages/logs/logs"
     ],
     "window": {

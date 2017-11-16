@@ -6,10 +6,10 @@
         <view class='flex_child'>3333</view>
         <view class='flex_child'>4444</view>
     </view> -->
-    <scroll-view scroll-y lower-threshold='100' bindscrolltolower='imgScroll' bindscroll='scrolling' style='height:{{scrollH}}'>
+    <scroll-view scroll-y lower-threshold='200' bindscrolltolower='imgScroll' bindscroll='scrolling' style='height:{{scrollH}}'>
         <view class='list'>
-            <view wx:for="{{column}}" wx:for-index="i" class='fall_style waterfall_{{i}}'>
-                <view class='fall' wx:for="{{column[i]}}">
+            <view wx:for="{{column}}" wx:for-index="i" class='fall_style waterfall_{{i}}'  data-height="{{column[i].height}}">
+                <view class='fall' wx:for="{{column[i].data}}">
                     <image class='fallImg' src='{{item.imgUrl}}' data-columnindex='{{i}}' data-imgindex='{{index}}' bindload='imgLoad' style='height:{{item.height}}'></image>
                     <view class='fallInfo'>
                         <view class='fallTitle'>嗯嗯嗯嗯，名字一致啊啊啊</view>

@@ -1,0 +1,8 @@
+<!--pages/shop/detail/detail.wxml-->
+<view class='container'>
+    <view class='headPart'>
+        <swiper indicator-dots='true' indicator-color='rgba(0, 0, 0, .3)' indicator-active-color='rgba(0, 0, 0, .7)' autoplay circular='true'>
+        </swiper>
+        <image class='headImg' src='http://on3kfaqzn.bkt.clouddn.com/1024&&BF734FDDC8C44CE18BE5A26D38D17E28.png?imageView2/1/w/1024/h/1024'></image>
+    </view>
+</view>

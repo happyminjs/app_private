@@ -1,0 +1,9 @@
+/* pages/shop/detail/detail.wxss */
+.headPart{
+    width: 750rpx;
+    height: 750rpx;
+}
+.headPart .headImg{
+    width: 100%;
+    height: 100%;
+}

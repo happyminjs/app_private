@@ -43,8 +43,16 @@ Page({
             }
         }
         var templist = self.data.column;
-        templist[0] = templist[0] ? templist[0].concat(htmlColumn[0]) : htmlColumn[0];
-        templist[1] = templist[1] ? templist[1].concat(htmlColumn[1]) : htmlColumn[1];
+        templist[0] = templist[0] ? templist[0] : new Object;
+        templist[1] = templist[1] ? templist[1] : new Object;
+        templist[0] = {
+            data: templist[0].data ? templist[0].data.concat(htmlColumn[0]) : htmlColumn[0],
+            height:0
+        };
+        templist[1] = {
+            data: templist[1].data ? templist[1].data.concat(htmlColumn[1]) : htmlColumn[1],
+            height: 0
+        } 
         self.setData({
             column: templist
         })
@@ -56,24 +64,34 @@ Page({
     imgScroll:function(){
         let self = this;
         if(!self.isloading){
-            self.isloading = true;
+            // self.isloading = true;
             self.appendImg();
+            self.data.isloading = false;
         }
     },
     appendImg:function(){
         let htmlColumn = this.data.column,that = this;
-        for (let start = 0; start < this.columnNumber; start++) {
-            if (htmlColumn[start] && !that.isloading){
-                // if()
-            }
-
-            var eleColumn = document.getElementById("waterFallColumn_" + start);
-            if (eleColumn && !this.loadFinish) {
-                if (eleColumn.offsetTop + eleColumn.clientHeight < this.scrollTop + (window.innerHeight || document.documentElement.clientHeight)) {
-                    this.append(eleColumn);
-                }
-            }
+        that.data.indexImage = that.data.indexImage - 0 + 1;
+        var index = that.getIndex();
+        var imgInfo = {
+            imgUrl: 'http://cued.xunlei.com/demos/publ/img/P_' + index + '.jpg',
         }
+        if(htmlColumn[0].height - htmlColumn[1].height > 200){
+            htmlColumn[1].data.push(imgInfo);
+        } else if (htmlColumn[1].height - htmlColumn[0].height > 200){
+            htmlColumn[0].data.push(imgInfo);
+        }else{
+            htmlColumn[0].data.push(imgInfo);
+            that.data.indexImage = that.data.indexImage - 0 + 1;
+            index = that.getIndex();
+            imgInfo = {
+                imgUrl: 'http://cued.xunlei.com/demos/publ/img/P_' + index + '.jpg',
+            }
+            htmlColumn[1].data.push(imgInfo);
+        }
+        that.setData({
+            column: htmlColumn
+        })
     },
 
     // 返回固定格式的图片名
@@ -93,7 +111,8 @@ Page({
         let oImgW = e.detail.width;
         let oImgH = e.detail.height;
         let imgH = oImgH * 345 / oImgW;
-        this.data.column[e.target.dataset.columnindex][e.target.dataset.imgindex].height = imgH + 'rpx';
+        this.data.column[e.target.dataset.columnindex].data[e.target.dataset.imgindex].height = imgH + 'rpx';
+        this.data.column[e.target.dataset.columnindex].height = this.data.column[e.target.dataset.columnindex].height + (imgH + 56) * this.data.ww / 750;
         this.setData({
             column: this.data.column
         })
