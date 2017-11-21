@@ -5,6 +5,17 @@ Page({
    * 页面的初始数据
    */
   data: {
+      headImg:[
+          {
+              imgUrl:'http://on3kfaqzn.bkt.clouddn.com/1024&&BF734FDDC8C44CE18BE5A26D38D17E28.png?imageView2/1/w/1024/h/1024'
+          },
+          {
+              imgUrl: 'http://on3kfaqzn.bkt.clouddn.com/1024&&BF734FDDC8C44CE18BE5A26D38D17E28.png?imageView2/1/w/1024/h/1024'
+          },
+          {
+              imgUrl: 'http://on3kfaqzn.bkt.clouddn.com/1024&&BF734FDDC8C44CE18BE5A26D38D17E28.png?imageView2/1/w/1024/h/1024'
+          }
+      ]
   
   },
 

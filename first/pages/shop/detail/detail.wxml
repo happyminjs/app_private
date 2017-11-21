@@ -1,8 +1,29 @@
 <!--pages/shop/detail/detail.wxml-->
 <view class='container'>
     <view class='headPart'>
-        <swiper indicator-dots='true' indicator-color='rgba(0, 0, 0, .3)' indicator-active-color='rgba(0, 0, 0, .7)' autoplay circular='true'>
+        <swiper class='headImg' indicator-dots='true' indicator-color='rgba(0, 0, 0, .3)' indicator-active-color='rgba(0, 0, 0, .7)' autoplay circular='true'>
+            <swiper-item wx:for='{{headImg}}'>
+                <image src="{{item.imgUrl}}" class="slide-image" style="width:100%;height:100%;"/>
+            </swiper-item>
         </swiper>
-        <image class='headImg' src='http://on3kfaqzn.bkt.clouddn.com/1024&&BF734FDDC8C44CE18BE5A26D38D17E28.png?imageView2/1/w/1024/h/1024'></image>
+        <view class='headInfo'>
+            <view class='headTitle'>美甲美甲美甲美甲美甲美甲</view>
+            <view class='priceInfo'>
+                <view class='price'>￥<text>12.5</text></view>
+                <view class='priceIcon'>到店</view>
+                <view class='priceIcon'>上门</view>
+                <image class='like' src='/images/favorites.png'></image>
+            </view>
+            <view class='numPart'>
+                <view class='need_time number'>耗时： <text>30分钟</text></view>
+                <view class='need_time number'>耗时： <text>30分钟</text></view>
+                <view class='need_time number'>已售数量： <text>3352</text></view>
+            </view>
+        </view>
     </view>
+    <view class='detailPart'>
+        <view>啦啦啦啦啦啦啦啦啦绿绿绿绿绿绿绿绿绿绿绿绿绿绿绿绿绿绿绿绿绿绿绿绿绿绿绿绿绿绿绿绿绿绿</view>
+    </view>
+
+    <view class='suggest'></view>
 </view>
