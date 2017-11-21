@@ -23,12 +23,34 @@
     </view>
     <!-- 店铺信息  -->
     <view class='shopPart'>
-        <view ></view>
+        <view class='head'>
+            <image class='shopheadImg' src='http://shopcdn.chuchujie.com/Uploads/shop_head/201701/1483413796.jpg?imageView2/2/w/400'></image>
+            <view class='shopInfo'>
+                <view class='shopname'>
+                    <text class='name'>店铺名称店铺名称店铺名称店铺名称店铺名称店铺名称店铺名称店铺名称店铺名称</text>
+                    <text class='aptitude'>已认证</text>
+                </view>
+                <view class='startPart'>
+                    <image class='star' src='/images/star.png' wx:for="{{3}}"></image>
+                </view>
+            </view>
+            <image class='shopMore' src='/images/more.png'></image>
+        </view>
+        <view class='address'>
+            <image class='location' src='/images/map.png'></image>
+            <text class='addressInfo'>北京市海淀区知春嘉园17号院2号楼</text>
+            <image class='call' src='/images/phone.png'></image>
+        </view>
     </view>
     <!-- 详情  -->
     <view class='detailPart'>
         <view>啦啦啦啦啦啦啦啦啦绿绿绿绿绿绿绿绿绿绿绿绿绿绿绿绿绿绿绿绿绿绿绿绿绿绿绿绿绿绿绿绿绿绿</view>
     </view>
     <!-- 推荐列表  -->
-    <view class='suggest'></view>
+    <view class='suggest_box'>
+        <view class='suggest'>
+            <image class='suggestImg' src='https://image-shop.chuchujie.com/culiu.cdn/image/201706/21/07e8e996b70f8f2d7e781d6996eb05061498029059_700_700.png'></image>
+            
+        </view>
+    </view>
 </view>

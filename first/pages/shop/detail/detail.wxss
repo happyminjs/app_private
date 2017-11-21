@@ -67,13 +67,106 @@
     font-size: 24rpx;
 }
 
+/* 店铺部门  */
+.shopPart{
+    background: #fff;
+    margin-top: 20rpx;
+    width:710rpx;
+    padding: 20rpx;
+}
+.head{
+    vertical-align: middle;
+    padding-bottom: 20rpx;
+}
+.shopheadImg{
+    vertical-align: middle;
+    width: 100rpx;
+    height: 100rpx;
+    border-radius: 50%;
+    margin-right: 20rpx;
+    display: inline-block;
+}
+.shopInfo{
+    vertical-align: middle;
+    display: inline-block;
+}
+.shopname{
+    margin-bottom: 10rpx;
+    font-size: 30rpx;
+}
+.name{
+    width: 430rpx;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display:inline-block;
+    vertical-align: middle;
+}
+.aptitude{
+    font-size: 24rpx;
+    vertical-align: middle;
+    background: #f5b020;
+    color: #fff;
+    padding: 5rpx;
+    border-radius: 4rpx;
+}
+.star{
+    width: 30rpx;
+    height: 30rpx;
+    display: inline-block;
+    margin: 0 5rpx;
+}
+.shopMore{
+    width: 50rpx;
+    height: 50rpx;
+    float: right;
+    margin-top: 20rpx;
+}
+.address{
+    border-top: 1px solid #f1f1f1;
+    padding: 20rpx 0 0 0;
+    font-size: 26rpx;
+}
+.location{
+    vertical-align: bottom;
+    width: 40rpx;
+    height: 40rpx;
+    margin-right: 20rpx;
+}
+.call{
+    width: 40rpx;
+    height: 40rpx;
+    float: right;
+    border-left: 1px solid #f1f1f1;
+    padding-left: 20rpx;
+}
+.addressInfo{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display:inline-block;
+    width: 580rpx;
+}
+
 /* 详情部分  */
 .detailPart{
     background: #fff;
-    margin: 10rpx 0;
-    padding: 10rpx;
+    margin: 20rpx 0;
+    padding: 20rpx;
     position: relative;
 }
 
 /* 推荐部分  */
-
+.suggest_box{
+    background: #fff;
+    padding: 10rpx;
+    width: 730rpx;
+}
+.suggest{
+    margin: 10rpx;
+    width: 345rpx;
+}
+.suggestImg{
+    width: 345rpx;
+    height: 345rpx;
+}
