@@ -21,9 +21,14 @@
             </view>
         </view>
     </view>
+    <!-- 店铺信息  -->
+    <view class='shopPart'>
+        <view ></view>
+    </view>
+    <!-- 详情  -->
     <view class='detailPart'>
         <view>啦啦啦啦啦啦啦啦啦绿绿绿绿绿绿绿绿绿绿绿绿绿绿绿绿绿绿绿绿绿绿绿绿绿绿绿绿绿绿绿绿绿绿</view>
     </view>
-
+    <!-- 推荐列表  -->
     <view class='suggest'></view>
 </view>
