@@ -1,0 +1,33 @@
+<!--pages/pay/createorder/createorder.wxml-->
+<view class='container'>
+    <view class='user_box'>
+        <view class='userinfo user_cate_box'>
+            <view class='user_type questen'>消费者类型：<text class='answer'>普通消费者</text></view>
+            <view class='user_name questen'>消费者姓名：<text class='answer'>消费者姓名</text></view>
+        </view>
+        <view class='userinfo user_price'>
+            <view class='org_price questen'>订单总金额：<text class='answer'>188元</text></view>
+            <view class='real_price questen'>实付金额：<view class='answer'><input class='real_num'></input>元</view></view>
+        </view>
+        <view class='userinfo pay_mode_box'>
+            <view class='pay_mode questen'>支付方式：<text class='answer'>现金支付</text></view>
+        </view>
+        <view class='userinfo waiter_type_box'>
+            <view class='waiter_type questen'>服务员类型：<text class='answer'>店长</text></view>
+            <view class='waiter_name questen'>服务员姓名：<text class='answer'>醒目醒目</text></view>
+        </view>
+    </view>
+    <view class='order_name'>全部订单</view>   
+    <view class='order_box'>
+        <view class='order' wx:for='{{3}}'>
+            <image class='pro_img' src='http://on3kfaqzn.bkt.clouddn.com/1B791A0BF1C34251957743ECF7536B25.png'></image>
+            <view class='pro_info_box'>
+                <view class='pro_title'>商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称</view>
+                <view class='pro_info'>
+                    <view class='pro_num'>X<text>1</text></view>
+                    <view class='pro_price'>￥<text>188</text></view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

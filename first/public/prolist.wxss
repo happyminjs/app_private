@@ -1,0 +1,95 @@
+/* 推荐部分  */
+.suggest_box{
+    background: #fff;
+    padding: 5rpx;
+    width: 740rpx;
+    margin-bottom:90rpx;
+}
+.suggest{
+    margin: 5rpx;
+    width: 363rpx;
+    display: inline-block;
+}
+.suggestImg{
+    width: 363rpx;
+    height: 363rpx;
+}
+.suggest_info_box{
+    padding: 0;
+    font-size: 28rpx;
+}
+.title_box{
+    color: #333;
+    display: flex;
+    display: -webkit-flex;
+    width: 100%;
+    justify-content:space-between;
+}
+.suggest_title{
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    max-width:280rpx;  
+    min-width: 200rpx;
+    overflow:hidden;
+}
+.suggest_flag{
+    width: 100%;
+}
+.suggest_flag view{
+    display: inline-block;
+    font-size: 24rpx;
+    padding: 2rpx 5rpx;
+    background: #0bc7dc;
+    color: #fff;
+    width:54rpx;
+    text-align:center;
+    margin-right: 5rpx;
+}
+.suggest_cate view{
+    font-size: 24rpx;
+    color: #969696;
+    display: inline-block;
+    margin-right: 6rpx;
+}
+.price_box{
+    width: 100%;
+    font-size: 24rpx;
+    position: relative;
+}
+.suggest_price{
+    display: inline-block;
+}
+.suggest_now{
+    color: red;
+    display: inline-block;
+    margin-right: 5rpx;
+}
+.suggest_now text{
+    font-size: 28rpx;
+}
+.org_back{
+    position:absolute;
+    top:49%;
+    width:100%;
+    height:1rpx;
+    background:#969696;
+}
+.suggest_org{
+    color: #969696;
+    display: inline-block;
+    position: relative;
+}
+.suggest_org text{
+    font-size: 26rpx;
+}
+.suggest_sold{
+    float: right;
+    right: 0;
+    display: flex;
+    display: -webkit-flex;
+}
+.suggest_add{
+    width: 40rpx;
+    height: 40rpx;
+    vertical-align: top;
+}

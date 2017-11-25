@@ -21,7 +21,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 1,
+			"current": 3,
 			"list": [
 				{
 					"id": 0,
@@ -34,6 +34,20 @@
 					"id": -1,
 					"name": "详情",
 					"pathName": "pages/shop/detail/detail",
+					"query": "",
+					"scene": "1001"
+				},
+				{
+					"id": -1,
+					"name": "店铺",
+					"pathName": "pages/shop/shopcenter/shopcenter",
+					"query": "",
+					"scene": "1001"
+				},
+				{
+					"id": -1,
+					"name": "生成订单",
+					"pathName": "pages/pay/createorder/createorder",
 					"scene": "1001"
 				}
 			]

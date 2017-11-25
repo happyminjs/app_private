@@ -7,6 +7,8 @@
         "pages/user/login/login",
         "pages/user/address/address",
         "pages/shop/detail/detail",
+        "pages/shop/shopcenter/shopcenter",
+        "pages/pay/createorder/createorder",
         "pages/logs/logs"
     ],
     "window": {

@@ -1,0 +1,90 @@
+<!--pages/shop/shopcenter/shopcenter.wxml-->
+<scroll-view>
+    <view class='shop_head'>
+        <image class='head_back' src='https://shopcdn.chuchujie.com/Uploads/desc/201510/144488116674134.jpg'></image>
+        <view class='shop_info'>
+            <image class='head_img' src='http://on3kfaqzn.bkt.clouddn.com/206&&90D3F84AC49F46C68F729AA7EB874E43.png'></image>
+            <text class='shop_name'>店铺名称店铺名称店铺名称</text>
+        </view>
+    </view>
+    <view class='suggest_box'>
+        <view class='suggest'>
+            <image class='suggestImg' src='https://image-shop.chuchujie.com/culiu.cdn/image/201706/21/07e8e996b70f8f2d7e781d6996eb05061498029059_700_700.png'></image>
+            <view class='suggest_info_box'>
+                <view class='title_box'>
+                    <view class='suggest_title'>商品名称商品名称商品名称</view>
+                    <view class='suggest_flag'>
+                        <view>到店</view>
+                        <view>到店</view>
+                    </view>
+                </view>
+                <view class='suggest_cate'>
+                    <view>美甲</view>
+                    <view>美甲</view>
+                </view>
+                <view class='price_box'>
+                    <view class='suggest_price'>
+                        <view class='suggest_now'>￥<text>15.5</text></view>
+                        <view class='suggest_org'><view class='org_back'></view>￥<text>20.00</text></view>
+                    </view>
+                    <view class='suggest_sold'>
+                        <view class='suggest_soldNum'>5人已购买</view>
+                        <!-- <image class='suggest_add' src='/images/add.png'></image> -->
+                    </view>
+                </view>
+            </view>
+        </view>
+        <view class='suggest'>
+            <image class='suggestImg' src='https://image-shop.chuchujie.com/culiu.cdn/image/201706/21/07e8e996b70f8f2d7e781d6996eb05061498029059_700_700.png'></image>
+            <view class='suggest_info_box'>
+                <view class='title_box'>
+                    <view class='suggest_title'>商品名称商品名称商品名称</view>
+                    <view class='suggest_flag'>
+                        <view>到店</view>
+                        <view>到店</view>
+                    </view>
+                </view>
+                <view class='suggest_cate'>
+                    <view>美甲</view>
+                    <view>美甲</view>
+                </view>
+                <view class='price_box'>
+                    <view class='suggest_price'>
+                        <view class='suggest_now'>￥<text>15.5</text></view>
+                        <view class='suggest_org'><view class='org_back'></view>￥<text>20.00</text></view>
+                    </view>
+                    <view class='suggest_sold'>
+                        <view class='suggest_soldNum'>5人已购买</view>
+                        <!-- <image class='suggest_add' src='/images/add.png'></image> -->
+                    </view>
+                </view>
+            </view>
+        </view>
+        <view class='suggest'>
+            <image class='suggestImg' src='https://image-shop.chuchujie.com/culiu.cdn/image/201706/21/07e8e996b70f8f2d7e781d6996eb05061498029059_700_700.png'></image>
+            <view class='suggest_info_box'>
+                <view class='title_box'>
+                    <view class='suggest_title'>商品名称商品名称商品名称</view>
+                    <view class='suggest_flag'>
+                        <view>到店</view>
+                        <view>到店</view>
+                    </view>
+                </view>
+                <view class='suggest_cate'>
+                    <view>美甲</view>
+                    <view>美甲</view>
+                </view>
+                <view class='price_box'>
+                    <view class='suggest_price'>
+                        <view class='suggest_now'>￥<text>15.5</text></view>
+                        <view class='suggest_org'><view class='org_back'></view>￥<text>20.00</text></view>
+                    </view>
+                    <view class='suggest_sold'>
+                        <view class='suggest_soldNum'>5人已购买</view>
+                        <!-- <image class='suggest_add' src='/images/add.png'></image> -->
+                    </view>
+                </view>
+            </view>
+        </view>        
+    </view>
+</scroll-view>
