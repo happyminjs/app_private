@@ -170,3 +170,29 @@
     width: 345rpx;
     height: 345rpx;
 }
+.suggest_info_box{
+    padding: 0;
+    font-size: 28rpx;
+}
+.title_box{
+    color: #333;
+    display: flex;
+    display: -webkit-flex;
+    width: 100%;
+}
+.suggest_title{
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    display:inline-block;
+    max-width:280rpx; 
+    overflow:hidden;
+}
+.suggest_flag view{
+    display: inline-block;
+    font-size: 24rpx;
+    padding: 2rpx 5rpx;
+    background: #0bc7dc;
+    color: #fff;
+    width:54rpx;
+    text-align:center;
+}

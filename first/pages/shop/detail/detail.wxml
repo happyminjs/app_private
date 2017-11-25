@@ -50,7 +50,28 @@
     <view class='suggest_box'>
         <view class='suggest'>
             <image class='suggestImg' src='https://image-shop.chuchujie.com/culiu.cdn/image/201706/21/07e8e996b70f8f2d7e781d6996eb05061498029059_700_700.png'></image>
-            
+            <view class='suggest_info_box'>
+                <view class='title_box'>
+                    <view class='suggest_title'>商品名称商品名称商品名称</view>
+                    <view class='suggest_flag'>
+                        <view>到店</view>
+                    </view>
+                </view>
+                <view class='suggest_cate'>
+                    <view>美甲</view>
+                    <view>美甲</view>
+                </view>
+                <view class='price_box'>
+                    <view class='suggest_price'>
+                        <view class='suggest_now'>￥<text>15.5</text></view>
+                        <view class='suggest_org'>￥<text>20.00</text></view>
+                    </view>
+                    <view class='suggest_sold'>
+                        <view class='suggest_soldNum'>5人已购买</view>
+                        <image class='suggest_add'></image>
+                    </view>
+                </view>
+            </view>
         </view>
     </view>
 </view>
