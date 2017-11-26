@@ -23,7 +23,7 @@
     </view>
     <!-- 店铺信息  -->
     <view class='shopPart'>
-        <view class='head'>
+        <view class='head' bindtap='gotoShop'>
             <image class='shopheadImg' src='http://shopcdn.chuchujie.com/Uploads/shop_head/201701/1483413796.jpg?imageView2/2/w/400'></image>
             <view class='shopInfo'>
                 <view class='shopname'>
@@ -102,12 +102,12 @@
         </view>
     </view>
 
-    <view class='cart_box'>
+    <view class='cart_box' bindtap='gotoCart'>
         <image src='/images/cart.png'></image>
         <text class='car_num'>12</text>
     </view>
     <view class='footer_box'>
         <view class='add_car'>放入购物车</view>
-        <view class='buy_now'>立即购买</view>
+        <view class='buy_now' bindtap='buynow'>立即购买</view>
     </view>
 </view>

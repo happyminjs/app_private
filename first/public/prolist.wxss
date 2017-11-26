@@ -7,7 +7,7 @@
 }
 .suggest{
     margin: 5rpx;
-    width: 363rpx;
+    width: 362rpx;
     display: inline-block;
 }
 .suggestImg{

@@ -8,13 +8,14 @@
         "pages/user/address/address",
         "pages/shop/detail/detail",
         "pages/shop/shopcenter/shopcenter",
+        "pages/shop/cart/cart",
         "pages/pay/createorder/createorder",
         "pages/logs/logs"
     ],
     "window": {
         "backgroundTextStyle": "light",
         "navigationBarBackgroundColor": "#333",
-        "navigationBarTitleText": "WeChat",
+        "navigationBarTitleText": "你最美",
         "navigationBarTextStyle": "white"
     },
     "tabBar": {

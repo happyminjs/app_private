@@ -116,5 +116,14 @@ Page({
         this.setData({
             column: this.data.column
         })
+    },
+    gotoDetail:function(e){
+        // console.log(e);
+        let columnIndex = e.target.dataset.columnindex;
+        let imgIndex = e.target.dataset.imgindex;
+        console.log(this.data.column[columnIndex].data[imgIndex]);
+        wx.navigateTo({
+            url: '/pages/shop/detail/detail',
+        })
     }
 })

@@ -1,0 +1,37 @@
+<!--pages/shop/cart/cart.wxml-->
+<view class='content'>
+    <view class='head_box'>
+        <view>
+            <image src='/images/remind.png'></image>
+            快乐美丽每一天
+        </view>
+        <view>继续挑选<image src='/images/more.png'></image></view>
+    </view>
+    <view class='proList'>
+        <view class='order' wx:for='{{3}}' style='overflow:hidden;'>
+            <scroll-view scroll-x bindscroll='scrollx' style='width:120%;overflow-x:scroll'> 
+                <image class='check_pro' src='/images/selected.png'></image>
+                <image class='pro_img' src='http://on3kfaqzn.bkt.clouddn.com/1B791A0BF1C34251957743ECF7536B25.png'></image>
+                <view class='pro_info_box'>
+                    <view class='pro_title'>商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称</view>
+                    <view class='pro_info'>
+                        <view class='pro_num'>X<text>1</text></view>
+                        <view class='pro_price'>￥<text>188</text></view>
+                    </view>
+                </view>
+                <image class='delete_pro' src='/images/delete.png'></image>
+            </scroll-view>
+        </view>
+    </view>
+    <view class='thanks'>感谢您的光顾，我们将为您提供高质量服务。</view>
+    <view class='footer_box'>
+        <view class='check_total'>
+            <image class='check_pro' src='/images/selected.png'></image>
+            全选
+        </view>
+        <view class='price_box'>
+            总计<view class='total_money'>¥<text>543.34</text></view>
+        </view>
+        <view class='confirm_btn' bindtap='createOrder'>选好了</view>
+    </view>
+</view>

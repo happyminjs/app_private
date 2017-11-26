@@ -1,4 +1,4 @@
-// pages/shop/shopcenter/shopcenter.js
+// pages/shop/cart/cart.js
 Page({
 
   /**
@@ -63,9 +63,7 @@ Page({
   onShareAppMessage: function () {
   
   },
-  gotoDetail:function(e){
-      wx.navigateTo({
-          url: '../detail/detail',
-      })
+  scrollx:function(e){
+      console.log(e);
   }
 })

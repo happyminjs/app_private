@@ -30,4 +30,21 @@
             </view>
         </view>
     </view>
+
+    <view class='footer_box'>
+        <view class='price_box'>
+            总计<view class='total_money'>¥<text>543.34</text></view>
+        </view>
+        <view class='confirm_btn' bindtap='createOrder'>生成订单</view>
+    </view>
+</view>
+
+<view class='two_btn_box' wx:if='{{showTwoBtn}}'>
+    <view class='two_btn'>
+        <view class='two_btn_content_box'>实付金额564.00元</view>
+        <view class='btn_box'>
+            <view class='two_btn_cancle_btn two_btn_btn' bindtap='cancleOrder'>取消</view>
+            <view class='two_btn_confirm_btn two_btn_btn' bindtap='confirmOrder'>确定</view>
+        </view>    
+    </view>
 </view>
