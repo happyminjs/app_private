@@ -68,3 +68,23 @@ page{
 .two_btn_cancle_btn{
     border-right: 1px solid #fafafa;
 }
+.toast_content{
+    position: relative;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    background: rgba(0,0, 0, 0.7);
+    display: inline-block;
+    color: #ffffff;
+    font-size: 28rpx;
+    padding: 4rpx 20rpx;
+    border-radius: 4rpx;
+}
+ .toast_box{
+    position:fixed;
+    top:0;
+    bottom:0;
+    width: 750rpx;
+    z-index: 100;
+} 

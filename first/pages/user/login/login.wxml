@@ -1,2 +1,37 @@
 <!--pages/user/login/login.wxml-->
-<text>pages/user/login/login.wxml</text>
+<view class='content'>
+    <image class='logo_img' src='/images/logo.png'></image>
+    <view class='login_box' wx:if="{{nowpage=='login'}}">
+        <input class='phone_num' placeholder='输入手机号' type='number' bindinput='login_input_phone'></input>
+        <input class='psw' password='true' bindinput='login_input_psw' placeholder='输入秘密'></input>
+        <view class='login_btn one_btn' bindtap='goLogin'>登录</view>
+        <view class='account_box'>
+            <view class='go_register' bindtap='goRegiste'>注册</view>
+            <view class='find_psw' bindtap='goFindPwd'>找回密码</view>
+        </view>
+    </view>
+
+    <view class='register_box' wx:elif="{{nowpage=='registe' || nowpage=='forgetPsw'}}">
+        <input class='phone_num' placeholder='输入手机号'></input>
+        <view class='img_code_box two_child'>
+            <input class='img_code has_right' placeholder='输入图片验证码'></input>
+            <image class='code_img' src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1512200570425&di=29f87ab6a34cc47af3dee77b6ca8ed42&imgtype=0&src=http%3A%2F%2Ffiles.jb51.net%2Ffile_images%2Farticle%2F201707%2F2017070411281411.png'></image>
+        </view>
+        <view class='msg_code_box two_child'>
+            <input class='msg_code has_right' placeholder='输入手机验证码'></input>
+            <view class='get_msg_code'>获取验证码</view>
+        </view>
+        <input class='new_psw' placeholder='输入密码'></input>
+        <view class='deal_box' wx:if="{{nowpage=='registe'}}">
+            <checkbox-group bindchange="check_agree">
+                <checkbox checked="true" value='agree' color='#f54407'/> 
+            </checkbox-group>
+            我同意<text>掌上美店使用协议</text>
+        </view>
+        <view class='register_btn one_btn' wx:if="{{nowpage=='registe'}}" bindtap='registefn'>注册</view>
+        <view class='one_btn find_psw_btn' wx:elif="{{nowpage=='forgetPsw'}}" bindtap='find_psw'>完成</view>
+    </view>
+</view>
+<view class='toast_box' wx:if="{{toast_content}}">
+    <view class='toast_content'>{{toast_content}}</view>
+</view>

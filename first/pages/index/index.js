@@ -28,6 +28,19 @@ Page({
                 that.waterFall()
             }
         })
+        wx.request({
+            url: 'http://www.linkbibi.com:8080/MANAGE/SSOS_goods_getVideosAndGoodsList.action',
+            header: {
+                'content-type': 'application/json'
+            },
+            data:{
+                'RegistrationID': '171976fa8a856bb53af'
+            },
+            method:'POST',
+            success:function(res){
+                console.log(res)
+            }
+        })
     },
     waterFall:function(){
         var htmlColumn = [], self = this;

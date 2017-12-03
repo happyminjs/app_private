@@ -1,1 +1,99 @@
 /* pages/user/login/login.wxss */
+page{
+    background: #ffffff;
+}
+.content{
+    width: 670rpx;
+    padding: 40rpx;
+}
+.logo_img{
+    width: 150rpx;
+    height: 150rpx;
+    border-radius: 50%;
+    margin: 50rpx 0;
+    display: block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.login_box{
+    margin-top: 80rpx;
+}
+input{
+    width: 590rpx;
+	border:1px solid transparent;
+	background-clip:padding-box,border-box;
+	background-origin:padding-box,border-box;
+	background-image:linear-gradient(90deg,#fff,#fff),linear-gradient(100deg,#f54407,#6444f5);
+    margin: 40rpx 20rpx;
+    height: 70rpx;
+    font-size: 28rpx;
+    line-height: 70rpx;
+    padding: 0 20rpx;
+    border-radius: 8rpx;
+}
+.one_btn{
+    width: 630rpx;
+    color: #ffffff;
+    margin: 20rpx;
+    height: 70rpx;
+    line-height: 70rpx;
+    text-align: center;
+    border-radius: 8rpx;
+    letter-spacing: 50rpx;
+    text-indent: 50rpx;
+    font-size: 30rpx;
+    background: linear-gradient(160deg, #f96c6c,#f121c4 40%, #7537fb); 
+}
+.account_box{
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+    padding: 20rpx;
+}
+.account_box view{
+    padding: 0 5rpx;
+}
+.go_register{
+    color: #f54407;
+}
+.img_code_box{
+    margin-bottom: 40rpx;
+}
+.two_child{
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+    padding-right:20rpx;
+}
+.has_right{
+    margin: 0 20rpx;
+}
+.code_img{
+    width: 200rpx;
+    height: 70rpx;
+}
+.get_msg_code{
+    width: 200rpx;
+    height: 70rpx;
+    line-height: 70rpx;
+    text-align: center;
+    border-radius: 8rpx;
+    border:1px solid transparent;
+	background-clip:padding-box,border-box;
+	background-origin:padding-box,border-box;
+	background-image:linear-gradient(90deg,#fff,#fff),linear-gradient(100deg,#f54407,#6444f5);
+}
+.deal_box{
+    vertical-align: middle;
+    text-align: center;
+    font-size: 24rpx;
+}
+.deal_box checkbox-group{
+    display: inline-block;
+    transform: scale(0.7);
+    vertical-align: middle;
+}
+.deal_box text{
+    color: #f54407;
+}
